@@ -85,8 +85,10 @@ class PDFEmbeddingGenerator:
                             'embedding': embedding
                         })
 
-        # Unstructured PDFs directly in base_dir (like Encyclopedia_of_Public_Health.pdf)
-        unstructured_files = list(self.base_dir.glob('*.pdf'))
+        # Only include specific unstructured PDFs (excluding Encyclopedia)
+        unstructured_files_to_include = ['book1_Q&A.pdf', 'book2_Q&A.pdf', 'book3_Q&A.pdf']
+        unstructured_files = [self.base_dir / fname for fname in unstructured_files_to_include if (self.base_dir / fname).exists()]
+
         for pdf_file in tqdm(unstructured_files, desc="Processing General/Uncategorized"):
             text = self.extract_text_from_pdf(pdf_file)
             if not text:
