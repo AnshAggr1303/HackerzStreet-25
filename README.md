@@ -1,8 +1,10 @@
 # 🚀 Multilingual Health RAG System (HackerzStreet 2025)
 
 ## 👨‍💻 Authors
-- **Ansh Agrawal, Ekaansh, Devansh,Arnav**
+- **Ansh Agrawal, Ekaansh Sawaria , Devansh Sharma , Arnav bansal**
 - 📅 Date: **13/4/2025**
+
+Link to the video demonstration: https://drive.google.com/drive/folders/10kBcKm-Aj0kcGC5THhuLprZ6pzduNnxA?usp=share_link
 
 
 
@@ -11,7 +13,7 @@ This project presents a fully **open-source**, **cloud-agnostic** multilingual *
 
 By integrating **open-source LLMs (LLaMA)** and leveraging **FastAPI, FastText, Deep Translate**, the system delivers **context-aware responses with enhanced accuracy**.
 
-This chatbot not only facilitates **real-time translation** and **multilingual conversations**, but also supports essential **transactional services** such as **policy inquiries** and **service requests**, making it a practical and scalable solution for the insurance sector. 🏦💬
+This assistant not only facilitates **real-time translation** and **multilingual** voice conversations, but also delivers medically-grounded answers using a retrieval-based approach, making it a practical, accessible, and scalable solution for rural and underserved healthcare ecosystems. 🏦💬
 
 ### 🌟 Key Features
 - 🌍 **Multilingual support** for **9 Indian languages**
@@ -161,3 +163,16 @@ Response:
 - 📘 [FastAPI Documentation](https://fastapi.tiangolo.com/)
 - 📗 [FastText Documentation](https://fasttext.cc/)
 - 🦙 [LLaMA Documentation](https://github.com/facebookresearch/llama)
+
+# 📝 Notes
+
+- Currently working on adding **support for other languages** in both:
+  - **Speech-to-Text (STT)**
+  - **Text-to-Speech (TTS)**
+
+🎥 **Backend Implementation of Multilingual Capabilities Walkthrough**  
+[Click here to watch the video](https://drive.google.com/drive/folders/1fNfXkMAyTccvzM_NgL20x1SrRz_M6UmH?usp=share_link)
+
+---
+
+> More updates coming soon as we integrate multilingual Speech capabilities!
