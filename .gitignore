@@ -1,9 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.npy
+*.csv
+*.log
+
+# Environment
 .env
-node_modules
-venv
+rag_env/
+venv/
+
+# Node.js
+node_modules/
+.next/
+
+# Models & Embeddings
 backend/cc.en.300.bin
-rag_env
 backend/app/models/cc.en.300.bin
-rag_env
+backend/app/models/audioModel/
+
+# System
 .DS_Store
 **/.DS_Store
+
+# VSCode
+.vscode/
+
+# Others
+*.swp
+*.bak
+*.tmp
+
+# Git LFS
+*.fst filter=lfs diff=lfs merge=lfs -text
+*.mdl filter=lfs diff=lfs merge=lfs -text
